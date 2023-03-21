@@ -70,7 +70,7 @@ export function HomeHeader() {
                   key={page}
                   onClick={handleCloseNavMenu}
                 >
-                  <CustomText className="m-0">{page}</CustomText>
+                  <CustomText className="m-0 text-xl">{page}</CustomText>
                 </MenuItem>
               ))}
             </Menu>
