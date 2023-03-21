@@ -23,7 +23,7 @@ export default function Home() {
     <div className="bg-bgColor h-screen pt-[64px]">
       <div className="relative h-full">
         <Container className="h-full" maxWidth="xl">
-          <div className="flex pt-3 sm:pt-24 h-full">
+          <div className="flex pt-5 md:pt-24 h-full">
             <div className="w-full md:w-2/6">
               <CustomText className="text-white text-4xl" bold={700}>
                 <span className="text-secondary">Horem</span> ipsum dolor Borem
@@ -45,7 +45,7 @@ export default function Home() {
             className="h-full"
             init={particlesInit}
             loaded={particlesLoaded}
-            width={800}
+            width={1100}
             height={700}
             options={{
               background: {
