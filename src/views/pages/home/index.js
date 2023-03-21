@@ -1,11 +1,11 @@
 import Container from "@mui/material/Container";
-import CustomText from "components/typography/CustomText";
-import Particles from "react-tsparticles";
-import { useCallback } from "react";
-import { loadFull } from "tsparticles";
 import icon1 from "assets/img/1.svg";
 import icon2 from "assets/img/2.svg";
 import icon3 from "assets/img/3.svg";
+import CustomText from "components/typography/CustomText";
+import { useCallback } from "react";
+import Particles from "react-tsparticles";
+import { loadFull } from "tsparticles";
 
 export default function Home() {
   const particlesInit = useCallback(async (engine) => {
@@ -46,7 +46,7 @@ export default function Home() {
             init={particlesInit}
             loaded={particlesLoaded}
             width={800}
-            height={800}
+            height={700}
             options={{
               background: {
                 color: {
