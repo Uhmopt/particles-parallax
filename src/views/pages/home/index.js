@@ -24,12 +24,12 @@ export default function Home() {
       <div className="relative h-full">
         <Container className="h-full" maxWidth="xl">
           <div className="flex pt-5 md:pt-24 h-full">
-            <div className="w-full md:w-2/6">
-              <CustomText className="text-white text-4xl" bold={700}>
+            <div className="w-full md:w-2/5">
+              <CustomText className="text-white text-5xl" bold={700}>
                 <span className="text-secondary">Horem</span> ipsum dolor Borem
                 ipsum
               </CustomText>
-              <CustomText className="text-gray-400 py-4 text-lg">
+              <CustomText className="text-gray-400 py-4 text-2xl">
                 Dorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
                 eu turpis molestie, dictum est a, mattis tellus. Sed dignissim,
                 metus nec fringilla accumsan, risus sem sollicitudin lacus, ut
