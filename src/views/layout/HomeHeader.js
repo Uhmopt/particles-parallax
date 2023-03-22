@@ -67,14 +67,17 @@ export function HomeHeader() {
                   key={page}
                   onClick={handleCloseNavMenu}
                 >
-                  <CustomText className="m-0 text-xl">{page}</CustomText>
+                  <CustomText className="m-0 text-2xl">{page}</CustomText>
                 </MenuItem>
               ))}
             </Menu>
           </Box>
           <Box sx={{ display: { xs: "none", sm: "flex" } }}>
             {pages.map((page) => (
-              <CustomLink className="p-2 text-primary block" key={page}>
+              <CustomLink
+                className="p-2 text-primary block text-2xl"
+                key={page}
+              >
                 {page}
               </CustomLink>
             ))}

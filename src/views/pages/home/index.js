@@ -39,7 +39,7 @@ export default function Home() {
             </div>
           </div>
         </Container>
-        <div className="absolute bottom-0 right-0">
+        <div className="absolute bottom-0 right-0 mb-6 mr-6">
           <Particles
             id="tsparticles"
             className="h-full"
@@ -53,7 +53,7 @@ export default function Home() {
                   value: "transparent",
                 },
               },
-              fpsLimit: 100,
+              fpsLimit: 300,
               interactivity: {
                 events: {
                   onClick: {
@@ -136,7 +136,7 @@ export default function Home() {
                   random: false,
                   anim: {
                     enable: true,
-                    speed: 4,
+                    speed: 3,
                     size_min: 3,
                     sync: false,
                   },
