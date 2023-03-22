@@ -46,7 +46,7 @@ export default function Home() {
             init={particlesInit}
             loaded={particlesLoaded}
             width={1100}
-            height={700}
+            height={800}
             options={{
               background: {
                 color: {

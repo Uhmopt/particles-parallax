@@ -33,7 +33,7 @@ export default React.memo(function Logo({
             src={image}
             className={`${
               size === "tiny"
-                ? "h-8"
+                ? "h-12"
                 : size === "small"
                 ? "h-24"
                 : size === "medium"
